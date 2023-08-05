@@ -1,9 +1,9 @@
 # Compiler-Simulator
 
-Compiler Construction Java Simulation
+## Compiler Construction Java Simulation
 This repository contains a Java simulation of sequential steps for building a compiler. The compiler construction process is modeled using ANTLR (ANother Tool for Language Recognition) and other supporting Java classes.
 
-Contents
+## Contents
 The repository includes the following files:
 
 ANTLRLexicalAnalysis.g4: This file represents the lexer grammar written in ANTLR's grammar format. It defines the lexical analysis rules to tokenize the input source code.
@@ -26,28 +26,6 @@ RegExToNfa.java: This Java class converts a Regular Expression (RegEx) into an N
 
 Task8Lexer.java: This Java class implements the Lexer, which is responsible for tokenizing the input source code based on the lexer grammar (ANTLRLexicalAnalysis.g4).
 
-How to Use
-To use this compiler construction simulation, follow the steps below:
 
-Clone or download the repository to your local machine.
 
-Make sure you have ANTLR installed and set up properly in your development environment.
 
-Run the ANTLR tool on the ANTLRLexicalAnalysis.g4 and ANTLRParsing.g4 files to generate lexer and parser classes.
-
-Compile all the Java files in the repository using a Java compiler.
-
-Execute the main class, CfgLl1Parser.java, to start the simulation.
-
-Note
-This simulation is intended for educational purposes and to demonstrate the step-by-step construction of a compiler. It may not be a complete and production-ready compiler implementation.
-
-Feel free to explore, modify, and enhance the code to suit your learning or project requirements.
-
-License
-[Include the appropriate license information here. If you're using an open-source license, link to the full license file in the repository.]
-
-Acknowledgments
-[Optional: Acknowledge any external resources or contributors that inspired or assisted in the development of this simulation.]
-
-[You can include any additional sections or information that you think would be relevant to the users of this repository.]
